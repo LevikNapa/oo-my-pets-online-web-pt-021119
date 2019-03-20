@@ -59,8 +59,9 @@ class Owner
       name_array.each do |pet|
         pet.mood = "nervous"
       end
-      @pets = {}
     end
+      @pets = {}
+  end
     
   def self.all
     @@all 
