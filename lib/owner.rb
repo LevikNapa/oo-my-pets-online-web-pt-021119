@@ -12,6 +12,8 @@ class Owner
   def self.reset_all
     @@all.clear
   end
+  def say_species
+  end
 
   
   def self.all
