@@ -43,6 +43,9 @@ class Owner
       fish.mood = "happy"
     end
   end
+  def sell_pets
+    
+  end
   def self.all
     @@all 
   end
