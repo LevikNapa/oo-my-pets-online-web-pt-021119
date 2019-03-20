@@ -19,6 +19,7 @@ class Owner
     {:fishes => [], :dogs => [], :cats => []}
   end
   def buy_fish
+    
   end
   
   def self.all
