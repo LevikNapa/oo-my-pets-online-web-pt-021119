@@ -18,7 +18,7 @@ class Owner
     "I am a human."
   end
   def pets 
-   @@pets
+  # @@pets
   end
   def buy_fish(name)
     @@pets[:fishes] << Fish.new(name)
