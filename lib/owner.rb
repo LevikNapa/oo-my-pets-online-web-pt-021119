@@ -6,6 +6,9 @@ class Owner
     @species = species
     @@all << self
   end
+  def self.count
+    
+  end
 
   
   def self.all
