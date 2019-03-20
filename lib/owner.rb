@@ -45,13 +45,13 @@ class Owner
     end
   end
   def sell_pets
-    pets.each do |pet, array|
-      array.collect do |pet|
-        pets.mood = "nervous"
-   end
-   array.clear
- end
-end
+    pets.each do |pet, arr|
+      arr.map do |pet|
+        pet.mood = 'nervous'
+      end
+      arr.clear
+    end
+  end
   def self.all
     @@all 
   end
