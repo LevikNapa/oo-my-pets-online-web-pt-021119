@@ -49,7 +49,7 @@ class Owner
       # arr.collect do |pet|
         pets.mood = "nervous"
       end
-      arr.clear
+      pets.clear
     end
   end
   def self.all
