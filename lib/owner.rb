@@ -47,9 +47,9 @@ class Owner
     pets.each do |pet, array|
       array.collect do |pet|
         pet.mood = 'nervous'
-  end
+   end
+   pets.clear
  end
- pets.clear
 end
   def self.all
     @@all 
