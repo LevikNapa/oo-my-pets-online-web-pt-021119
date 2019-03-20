@@ -15,6 +15,9 @@ class Owner
   def say_species
     "I am a human."
   end
+  def pets 
+    {:fishes => [], :dogs => [], :cats => []}
+  end
 
   
   def self.all
