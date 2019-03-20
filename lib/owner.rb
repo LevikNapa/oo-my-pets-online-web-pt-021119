@@ -44,6 +44,9 @@ class Owner
       fish.mood = "happy"
     end
   end
+  def mood=(mood)
+    @mood = mood
+  end
   def sell_pets
     pets.each do |pet, arr|
       # arr.collect do |pet|
