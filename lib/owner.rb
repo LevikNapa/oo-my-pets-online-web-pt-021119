@@ -31,9 +31,10 @@ class Owner
   end
    def buy_dog(name)
     # @@pets[:dogs] << Dog.new(name)
+   pets{:fishes => [], :dogs => [], :cats => []}
   end
   def walk_dogs
-    @@pets[:dogs].each do |dog|
+    # @@pets[:dogs].each do |dog|
       dog.mood = "happy"
      end
     end
