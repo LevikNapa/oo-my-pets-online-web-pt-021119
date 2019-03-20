@@ -5,6 +5,7 @@ class Owner
   @@pets = {:fishes => [], :dogs => [], :cats => []}
   def initialize(species)
     @species = species
+    @name = name
     @@all << self
   end
   def self.count
