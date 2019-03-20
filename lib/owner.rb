@@ -3,6 +3,6 @@ class Owner
 
   
   def self.all
-    @@all
+    @@all << self
   end
 end
