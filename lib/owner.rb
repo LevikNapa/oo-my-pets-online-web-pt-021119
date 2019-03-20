@@ -50,7 +50,7 @@ class Owner
         pets.mood = "nervous"
       end
       pets.clear
-    end
+   
   end
   def self.all
     @@all 
