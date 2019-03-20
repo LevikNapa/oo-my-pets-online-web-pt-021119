@@ -60,7 +60,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
-      @pets = {}
+      pets.clear
   end
     
   def self.all
