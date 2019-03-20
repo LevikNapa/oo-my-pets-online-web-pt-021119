@@ -18,7 +18,7 @@ class Owner
   def pets 
     {:fishes => [], :dogs => [], :cats => []}
   end
-
+  def 
   
   def self.all
     @@all 
