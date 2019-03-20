@@ -1,5 +1,8 @@
 class Owner
-  @@all 
+  @@all
+  def initialize
+    @@all
+  end
   
   def self.all
     @@all
