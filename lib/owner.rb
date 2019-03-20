@@ -48,7 +48,7 @@ class Owner
       array.collect do |pet|
         pet.mood = 'nervous'
    end
-   pets.clear
+   pets.reset_all
  end
 end
   def self.all
